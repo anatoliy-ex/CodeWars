@@ -1,0 +1,4 @@
+function powersOfTwo(n)
+{
+  return []
+}
