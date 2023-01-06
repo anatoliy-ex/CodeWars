@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Моя первая настоящая HTML-страничка</title>
+</head>
+<body>
+<h1>Привет, мир!</h1>
+<p>Моя первая веб-страничка.</p>
+<script>
+countBy(1,10) === [1,2,3,4,5,6,7,8,9,10]
+countBy(2,5) === [2,4,6,8,10]
+
+function countBy(x, n) 
+{
+   let z = [];
+   var y = 0;
+  for( var i = 0; i <=n - 1; i++)
+    {
+       y += x;
+       z.push(y);  
+    }
+  console.log(z);
+  return z;
+}
+</script>
+</body>
+</html>
