@@ -1,0 +1,4 @@
+const binaryArrayToNumber = arr => 
+{ 
+  
+};
